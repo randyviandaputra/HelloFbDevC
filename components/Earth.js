@@ -44,7 +44,7 @@ export default class Earth extends React.Component {
           style={{transform: [{translate: [0, 1, 5]}]}}
         />
         <AnimatedEntity
-          source={{gltf2: asset('Earth.gltf')}}
+          source={{gltf2: asset('earth.gltf')}}
           style={{
             transform: [
               {translateY: this.jumpValue},
